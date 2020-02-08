@@ -4,8 +4,8 @@ const path = require('path');
 const nodemailer = require('nodemailer')
 
 const transporter = nodemailer.createTransport({
-  host: 'smtp.ayy.fi',
-  port: 25,
+  host: 'smtp-relay.gmail.com',
+  port: 587,
 });
 
 const EmailService = {
