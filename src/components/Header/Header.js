@@ -16,7 +16,7 @@ class Header extends React.Component {
       <div className="navbar navbar-default">
         <div className="container">
           <a onClick={() => browserHistory.push(`${PREFIX_URL}/`)} className="navbar-brand">
-            {' '}
+            <img height="30" src="https://as.fi/static/aswhite.png" />
             {BRANDING_HEADER_TITLE}
           </a>
           {this.props.loggedIn ? (
@@ -28,8 +28,8 @@ class Header extends React.Component {
               Logout
             </a>
           ) : (
-            ''
-          )}
+              ''
+            )}
         </div>
       </div>
     );

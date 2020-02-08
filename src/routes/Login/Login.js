@@ -34,7 +34,7 @@ class Login extends React.Component {
             name="email"
             label="Sähköposti"
             title="Sähköposti"
-            placeholder="admin@athene.fi"
+            placeholder="admin@as.fi"
             layout="vertical"
             required
           />

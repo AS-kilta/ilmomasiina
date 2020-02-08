@@ -7,9 +7,13 @@
   a.navbar-brand:focus,
   a.navbar-brand:hover {
     color: #fff;
-    font-size: 18px;
-    text-transform: uppercase;
+    font-size: 24px;
     font-weight: 600;
     letter-spacing: 1px;
+
+    img {
+      display: inline-block;
+      margin-right: 1rem;
+    }
   }
 }
